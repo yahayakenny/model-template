@@ -17,8 +17,10 @@
 }
 
 input {
-  width: 580px !important;
+  width: 85% !important;
   border-radius: 8px !important;
+  margin: 0 auto;
+  display: block;
 }
 
 
@@ -41,10 +43,7 @@ input {
     margin-left: -12px;
   }
   
-  .bmi p:last-of-type {
-    margin-right: 200px;
-  }
-
+  
   .marie {
    width: 100%;
    height: 60% !important;
@@ -55,28 +54,31 @@ input {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #F8F4F4;
     padding: 50px;
-    /* width: 100% !important; */
+    text-align: center;
+    
    
 }
 
-.footer-nav ul {
+ul {
     display: flex;
     
 }
 .fa-circle {
-    font-size: 20px;
+    font-size: 12px;
     color: #804DEA;;
 }
 
 
 .footer-nav ul li{
-   margin-left: 15px;
+  padding: 2px;
    list-style-type: none;
+   font-size: 12px;
 
 }
-
+h6 {
+  font-size: 8px;
+}
 
 .social ul {
     display: flex;
@@ -84,17 +86,23 @@ input {
 
 .social ul li {
     list-style-type: none;
-    margin-left: 15px;
-    font-size:25px;
+    margin-left: 8px;
+    font-size:15px;
 
 }
 
-@media (min-width: 576px) {
+@media (min-width: 375px) {
     .search-model {
         text-align: center;
        
 
     }
+  footer ul li{
+      margin-left: 6px;
+      list-style-type: none;
+      padding: 3px;
+   
+   }
 
     .models img{
         padding-bottom: 40px;
